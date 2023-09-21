@@ -7,7 +7,12 @@
     list-style-type: none !important;
     box-sizing: border-box !important;
     /* outline: 1px solid red; */
-    /* background-color: #000000; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
 :root {
@@ -17,10 +22,7 @@
     --fs-md: 16px;
     --fs-lg: 25px;
     --fs-xl: 25px;
-    --fs-2xl: 40px
-}
-
-:root {
+    --fs-2xl: 40px;
     /*font-weight */
     --fw-700: 600;
     --fw-600: 500;
